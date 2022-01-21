@@ -50,7 +50,6 @@ dependencyManagement {
 
 contracts {
     testFramework = org.springframework.cloud.contract.verifier.config.TestFramework.JUNIT5
-    packageWithBaseClasses = 'pl.codementors.producer.fraud'
 }
 
 contractTest {
