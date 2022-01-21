@@ -1,0 +1,13 @@
+request:
+  method: POST
+  url: /check
+  body:
+    value: 15000
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    rejectionReason: "Amount of money is too high"
+  headers:
+    Content-Type: application/json
